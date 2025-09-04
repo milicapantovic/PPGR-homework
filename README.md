@@ -16,13 +16,15 @@ pip install numpy matplotlib opencv-python
 ```
 ##  Features
 
-*Compute camera matrices, including intrinsic and extrinsic parameters.*
+*  Compute coordinates of the invisible box vertex.
 
-*Perform camera calibration to estimate camera orientation and position.*
+*  Use projective transformations to remove projective distortion.
 
-*Use projective transformations to remove projective distortion.*
+*  Compute camera matrices, including intrinsic and extrinsic parameters and centre of the camera.
 
-*Calculate coordinates of the invisible box vertex.*
+*  Perform camera calibration to estimate camera orientation and position.
+
+*  Compute 3D coordinates and camera matrices based on left and right images of the same scene. 
 
 ## Usage
 
